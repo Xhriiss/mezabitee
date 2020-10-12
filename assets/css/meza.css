@@ -37,6 +37,7 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    padding: 10px;
 }
 .first_btn{
     left: 120px;
@@ -68,9 +69,14 @@ a:hover{
 
   
 }
+ul{
+    display: flex;
+    align-items: flex-end;
+
+}
 li{
-    display: inline;
-    margin: 20px 10px 20px 100px;
+    width: 30%;
+    /* margin: 20px 10px 20px 100px; */
     color: black;
 }
 li a:link{
@@ -141,11 +147,12 @@ li a:hover{
     width: 70%;
     background-color:rgb(236, 236, 236);
     margin: auto;
+    display: flex;
 }
 .plan_item{
     background-image:url(../img/sample7.jpg) ;
     padding: 10px;
-    display: inline-block;
+    /* display: inline-block; */
     width: 33%;
     margin: auto ;
     height: 210px;
@@ -185,6 +192,10 @@ background-color: white;
     margin: auto;
     text-align: center;
 }
+.flx{
+    display: flex;
+    justify-content: space-evenly;
+}
 .exp{
     text-align: center;
     margin-top: 250px;
@@ -192,9 +203,9 @@ background-color: white;
 }
 .four_box{
     background-color: transparent;
-   padding: 10px;
+   /* padding: 10px;
    width:20% ;
-   display: inline-block;
+   display: inline-block; */
    height: 200px;
 }
 .tv {
@@ -302,8 +313,8 @@ font-size: 40px;
     display: inline-block;
 }
 .in_img_cont{
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .values p {
 text-align: center;
@@ -327,4 +338,6 @@ padding: 5px;
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50% 100%;
+   width: 80%;
+   margin: auto;
 }
